@@ -1,14 +1,14 @@
-package cuj.bookstore.service;
+package cuj.bookstore.service.sort;
 
 import cuj.bookstore.constants.SortType;
 import cuj.bookstore.domain.StudentInfo;
-import cuj.bookstore.service.sort.StudentInfoService;
-import cuj.bookstore.service.sort.StudentInfoServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import static org.junit.Assert.*;
 
 /**
  * Created by cujamin on 2018/4/6.
@@ -76,6 +76,4 @@ public class StudentInfoServiceTest {
             System.out.println(studentInfo.toString());
         }
     }
-
-
 }
