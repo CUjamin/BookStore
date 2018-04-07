@@ -8,7 +8,7 @@ public class StudentInfo {
     private int score;
     private int age;
 
-    public StudentInfo(int studentId, int score, int age) {
+    public StudentInfo(int studentId,int age,int score) {
         this.studentId = studentId;
         this.score = score;
         this.age = age;
