@@ -38,6 +38,8 @@ public class OutputServiceImpl implements OutputService {
             writer = new OutputStreamWriter(fout,charsetName);
             writer.append("学号");
             writer.append(",");
+            writer.append("姓名");
+            writer.append(",");
             writer.append("分数");
             writer.append(",");
             writer.append("年龄");
@@ -46,9 +48,11 @@ public class OutputServiceImpl implements OutputService {
             {
                 writer.append(studentInfo.getStudentId()+"");
                 writer.append(",");
-                writer.append(studentInfo.getScore()+"");
+                writer.append(studentInfo.getName()+"");
                 writer.append(",");
                 writer.append(studentInfo.getAge()+"");
+                writer.append(",");
+                writer.append(studentInfo.getScore()+"");
                 writer.append("\r\n");
             }
             writer.close();

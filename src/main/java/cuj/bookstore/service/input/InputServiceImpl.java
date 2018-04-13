@@ -26,8 +26,9 @@ public class InputServiceImpl implements InputService {
                 String[] infoArray = info.split(",");
                 StudentInfo studentInfo = new StudentInfo(
                         Integer.parseInt(infoArray[0]),
-                        Integer.parseInt(infoArray[1]),
-                        Integer.parseInt(infoArray[2]));
+                        infoArray[1],
+                        Integer.parseInt(infoArray[2]),
+                        Integer.parseInt(infoArray[3]));
                 list.add(studentInfo);
                 info = reader.readLine();
             }

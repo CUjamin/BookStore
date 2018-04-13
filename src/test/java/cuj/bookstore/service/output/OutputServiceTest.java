@@ -18,11 +18,11 @@ public class OutputServiceTest {
     @Before
     public void setUp() throws Exception {
         outputService = new OutputServiceImpl();
-        StudentInfo studentInfo1 = new StudentInfo(2001,99,19);
-        StudentInfo studentInfo2 = new StudentInfo(2002,60,18);
-        StudentInfo studentInfo3 = new StudentInfo(2003,70,17);
-        StudentInfo studentInfo4 = new StudentInfo(2004,80,20);
-        StudentInfo studentInfo5 = new StudentInfo(2005,85,10);
+        StudentInfo studentInfo1 = new StudentInfo(2001,"一",19,99);
+        StudentInfo studentInfo2 = new StudentInfo(2002,"二",18,60);
+        StudentInfo studentInfo3 = new StudentInfo(2003,"三",17,70);
+        StudentInfo studentInfo4 = new StudentInfo(2004,"四",20,80);
+        StudentInfo studentInfo5 = new StudentInfo(2005,"五",10,85);
         list.add(studentInfo1);
         list.add(studentInfo2);
         list.add(studentInfo3);

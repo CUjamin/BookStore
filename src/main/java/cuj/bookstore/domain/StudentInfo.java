@@ -5,44 +5,41 @@ package cuj.bookstore.domain;
  */
 public class StudentInfo {
     private int studentId;
-    private int score;
+    private String name;
     private int age;
+    private int score;
 
-    public StudentInfo(int studentId,int age,int score) {
+    public StudentInfo(int studentId, String name, int age, int score) {
         this.studentId = studentId;
-        this.score = score;
+        this.name = name;
         this.age = age;
+        this.score = score;
     }
+
 
     public int getStudentId() {
         return studentId;
     }
-//
-//    public void setStudentId(int studentId) {
-//        this.studentId = studentId;
-//    }
 
-    public int getScore() {
-        return score;
+    public String getName() {
+        return name;
     }
-//
-//    public void setScore(int score) {
-//        this.score = score;
-//    }
 
     public int getAge() {
         return age;
     }
 
-//    public void setAge(int age) {
-//        this.age = age;
-//    }
+    public int getScore() {
+        return score;
+    }
 
     @Override
-    public String toString()
-    {
-        return " [ studentId:"+studentId+";"+
-                "score:"+score+";"+
-                "age:"+age+" ] ";
+    public String toString() {
+        return "StudentInfo{" +
+                "studentId=" + studentId +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", score=" + score +
+                '}';
     }
 }
