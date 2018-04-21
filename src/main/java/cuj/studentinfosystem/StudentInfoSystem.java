@@ -60,7 +60,7 @@ public class StudentInfoSystem {
                     case 1:outputService.outputOnScreem(list);break;
                     case 2:
                     {
-                        System.out.println("请输入输出文件名：");
+                        System.out.println("请输入输出文件名（包括格式，例如：测试题目.csv）：");
                         String outputFileName =input.next().trim();
                         outputService.outputInFile(list,outputFileName,"GBK");
                     }
