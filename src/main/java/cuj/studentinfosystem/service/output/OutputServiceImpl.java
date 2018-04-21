@@ -1,6 +1,6 @@
-package cuj.bookstore.service.output;
+package cuj.studentinfosystem.service.output;
 
-import cuj.bookstore.domain.StudentInfo;
+import cuj.studentinfosystem.domain.StudentInfo;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

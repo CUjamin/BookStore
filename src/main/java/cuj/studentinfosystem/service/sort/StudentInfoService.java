@@ -1,6 +1,6 @@
-package cuj.bookstore.service.sort;
+package cuj.studentinfosystem.service.sort;
 
-import cuj.bookstore.domain.StudentInfo;
+import cuj.studentinfosystem.domain.StudentInfo;
 
 import java.util.List;
 

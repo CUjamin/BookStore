@@ -1,4 +1,4 @@
-package cuj.bookstore.domain;
+package cuj.studentinfosystem.domain;
 
 /**
  * Created by cujamin on 2018/4/6.

@@ -1,4 +1,4 @@
-package cuj.bookstore.constants;
+package cuj.studentinfosystem.constants;
 
 /**
  * Created by cujamin on 2018/4/6.

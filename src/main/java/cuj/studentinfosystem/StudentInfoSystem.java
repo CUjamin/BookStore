@@ -1,24 +1,22 @@
-package cuj.bookstore;
+package cuj.studentinfosystem;
 
 
-import cuj.bookstore.constants.SortType;
-import cuj.bookstore.domain.StudentInfo;
-import cuj.bookstore.service.input.InputService;
-import cuj.bookstore.service.input.InputServiceImpl;
-import cuj.bookstore.service.output.OutputService;
-import cuj.bookstore.service.output.OutputServiceImpl;
-import cuj.bookstore.service.sort.StudentInfoService;
-import cuj.bookstore.service.sort.StudentInfoServiceImpl;
+import cuj.studentinfosystem.constants.SortType;
+import cuj.studentinfosystem.domain.StudentInfo;
+import cuj.studentinfosystem.service.input.InputService;
+import cuj.studentinfosystem.service.input.InputServiceImpl;
+import cuj.studentinfosystem.service.output.OutputService;
+import cuj.studentinfosystem.service.output.OutputServiceImpl;
+import cuj.studentinfosystem.service.sort.StudentInfoService;
+import cuj.studentinfosystem.service.sort.StudentInfoServiceImpl;
 
-import java.io.*;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
 /**
  * Created by cujamin on 2018/4/3.
  */
-public class BookStore {
+public class StudentInfoSystem {
     public static void main(String[] args) {
 
         InputService inputService = new InputServiceImpl();

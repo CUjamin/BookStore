@@ -1,6 +1,6 @@
-package cuj.bookstore.service.input;
+package cuj.studentinfosystem.service.input;
 
-import cuj.bookstore.domain.StudentInfo;
+import cuj.studentinfosystem.domain.StudentInfo;
 
 import java.util.List;
 

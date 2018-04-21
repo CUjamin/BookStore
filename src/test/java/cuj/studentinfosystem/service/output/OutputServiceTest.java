@@ -1,13 +1,11 @@
-package cuj.bookstore.service.output;
+package cuj.studentinfosystem.service.output;
 
-import cuj.bookstore.domain.StudentInfo;
+import cuj.studentinfosystem.domain.StudentInfo;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.LinkedList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by cujamin on 2018/4/6.

@@ -1,7 +1,7 @@
-package cuj.bookstore.service.sort;
+package cuj.studentinfosystem.service.sort;
 
-import cuj.bookstore.constants.SortType;
-import cuj.bookstore.domain.StudentInfo;
+import cuj.studentinfosystem.constants.SortType;
+import cuj.studentinfosystem.domain.StudentInfo;
 
 import java.util.Collections;
 import java.util.Comparator;

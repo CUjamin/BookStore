@@ -1,13 +1,10 @@
-package cuj.bookstore.service.input;
+package cuj.studentinfosystem.service.input;
 
-import cuj.bookstore.domain.StudentInfo;
-import org.junit.Assert;
+import cuj.studentinfosystem.domain.StudentInfo;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by cujamin on 2018/4/13.
